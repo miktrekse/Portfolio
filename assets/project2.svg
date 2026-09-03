@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#072033" />
+  <g fill="#7cc5ff" font-family="sans-serif" font-size="48" font-weight="700">
+    <text x="60" y="120">Project Two</text>
+    <text x="60" y="180" font-size="20" fill="#bfe3ff">Demo screenshot / placeholder</text>
+  </g>
+</svg>
