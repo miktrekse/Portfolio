@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Miķelis Trekše | Programmētāja portfolio ar prasmēm, projektiem un kontaktiem.">
+  <meta name="description" content="Miķelis Trekše | Programmētāja portfolio ar prasmēm, pieredzi, projektiem un kontaktiem.">
   <title>Miķelis Trekše | Programmētāja portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,6 +16,7 @@
       <ul class="nav-links">
         <li><a href="#about">Par mani</a></li>
         <li><a href="#skills">Prasmes</a></li>
+        <li><a href="#experience">Pieredze</a></li>
         <li><a href="#projects">Projekti</a></li>
         <li><a href="#contact">Kontakti</a></li>
       </ul>
@@ -20,7 +24,7 @@
 
     <div class="hero">
       <div class="container hero-body">
-        <p class="eyebrow">PROGRAMMĒTĀJS · RADOŠS PROBLĒMU RISINĀTĀJS</p>
+        <p class="eyebrow">PROGRAMMĒŠANAS TEHNIĶIS · RADOŠS PROBLĒMU RISINĀTĀJS</p>
         <h1>Sveiki, esmu <span class="accent">Miķelis Trekše</span></h1>
         <p class="lead">Veidoju tīmekļa pieredzi, kas ir ātra, saprotama un patīkama lietošanā.</p>
         <p class="hero-cta">
@@ -36,7 +40,7 @@
     <section id="about">
       <p class="section-label">01 / PAR MANI</p>
       <h2>Idejas pārvēršu lietojamos digitālos produktos.</h2>
-      <p>Esmu programmēšanas entuziasts, kuram interesē tīmekļa tehnoloģijas, dizains un tas, kā sarežģītas idejas padarīt vienkāršas. Brīvajā laikā sportoju vairākus citus sportu kā piemēram volejbolu.</p>
+      <p>Esmu programmēšanas entuziasts, kuram interesē tīmekļa tehnoloģijas, dizains un tas, kā sarežģītas idejas padarīt vienkāršas. Šobrīd studēju programmēšanu Vidzemes Tehnoloģijas un dizaina tehnikumā un skolas programmēšanas konkursā esmu ieguvis diplomu par trešo vietu. Brīvajā laikā nodarbojos ar vairākiem sporta veidiem, tāpēc esmu veselīgs un disciplinēts.</p>
     </section>
 
     <section id="skills">
@@ -45,14 +49,44 @@
       <ul class="skill-list">
         <li>JavaScript</li>
         <li>HTML & CSS</li>
-        <li>mySQL</li>
+        <li>PHP</li>
         <li>Laravel</li>
+        <li>MySQL</li>
         <li>Git & GitHub</li>
       </ul>
     </section>
 
+    <section id="experience">
+      <p class="section-label">03 / PIEREDZE UN IZGLĪTĪBA</p>
+      <h2>Ceļš līdz šim brīdim.</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <p class="timeline-date">2023 – šobrīd · Cēsis, Latvija</p>
+          <h3>Programmēšanas tehniķis</h3>
+          <p class="timeline-org"><a href="https://www.vtdt.lv" target="_blank" rel="noopener">Vidzemes Tehnoloģijas un dizaina tehnikums</a></p>
+          <p>Mācību joma: programmatūras un lietojumprogrammu izstrāde un analīze (EKI 4. līmenis).</p>
+        </div>
+
+        <div class="timeline-item">
+          <p class="timeline-date">07/2022 · Cēsis, Latvija</p>
+          <h3>Palīgstrādnieks</h3>
+          <p class="timeline-org">CDZP</p>
+          <p>Piedalījos mājas renovācijas darbos, apgūstot atbildību un komandas darbu ārpus IT jomas.</p>
+        </div>
+      </div>
+
+      <div class="languages">
+        <h3>Valodu zināšanas</h3>
+        <ul class="language-list">
+          <li><span class="language-name">Latviešu</span><span class="language-level">Dzimtā valoda</span></li>
+          <li><span class="language-name">Angļu</span><span class="language-level">C1 / C2 — kompetents lietotājs</span></li>
+        </ul>
+      </div>
+    </section>
+
     <section id="projects">
-      <p class="section-label">03 / IZCELTIE PROJEKTI</p>
+      <p class="section-label">04 / IZCELTIE PROJEKTI</p>
       <h2>Lietas, ko esmu uzbūvējis.</h2>
       <p class="section-intro">Divi projekti, kas parāda manu pieeju dizainam, kodam un problēmu risināšanai.</p>
 
@@ -65,7 +99,7 @@
             <p>Web page, kur var sekot disc golf turnīriem, trenēties disku golfam un piedalīties notikumos.</p>
             <div class="project-links">
               <a class="btn" href="#" data-open="1">Skatīt projektu</a>
-              <a class="btn ghost" href="https://github.com/miktrekse/Problema.git" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn ghost" href="https://github.com/miktrekse/KvalifikacijasDarbs.git" target="_blank" rel="noopener">GitHub</a>
             </div>
           </div>
         </article>
@@ -90,7 +124,7 @@
           <div class="modal-content">
             <h3 id="modal-title">Projekta nosaukums</h3>
             <img id="modal-image" src="assets/project1.svg" alt="">
-            <p id="modal-desc">Šeit būs izvērsts projekta apraksts, izmantotais tehnoloģiju steks un saite uz demonstrāciju vai video.</p>
+            <p id="modal-desc"></p>
             <p><a id="modal-demo" class="btn" href="#" target="_blank" rel="noopener">Demo / video</a>
             <a id="modal-code" class="btn ghost" href="#" target="_blank" rel="noopener">GitHub kods</a></p>
           </div>
@@ -99,7 +133,7 @@
     </section>
 
     <section id="contact">
-      <p class="section-label">04 / KONTAKTI</p>
+      <p class="section-label">05 / KONTAKTI</p>
       <h2>Parunāsim par nākamo ideju.</h2>
       <p>Esmu atvērts jaunām iespējām un interesantiem projektiem. Raksti uz <a href="mailto:ipb23.m.trekse@vtdt.edu.lv">ipb23.m.trekse@vtdt.edu.lv</a> vai atrodi mani <a href="https://github.com/miktrekse" target="_blank" rel="noopener">GitHub</a>.</p>
     </section>
